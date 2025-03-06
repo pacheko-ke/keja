@@ -8,7 +8,7 @@ import Visa from '../images/visa.svg'
 export default function Features() {
     return (
         <div className='mt-10 flex flex-col mx-4 text-left gap-4 '>
-            <h1 className='text-xl font-bold mb-2'>Manage Your Properties.But With Zero Hassle</h1>
+            <h1 className='text-2xl font-bold mb-2'>Manage Your Properties. But With Zero Hassle</h1>
 
             <div className='flex flex-col '>
                 <h1 className='text-md font-bold '>Support Multiple Payment Gateways</h1>
@@ -21,7 +21,7 @@ export default function Features() {
 
 
                 <div>
-                    <h1 className='text-md font-bold'>Interact seamlessly with your tenants and agents</h1>
+                    <h1 className='text-md font-bold mt-4'>Interact seamlessly with your tenants and agents</h1>
                     <p>Bridge the gap between you and your tenants through a live chat.</p>
                     <img src={Chat} alt="payment" />
                 </div>
@@ -36,6 +36,6 @@ export default function Features() {
                 <p>Manage your properties from the comfort of your bedroom through our mobile app .</p>
             </div> */}
             </div>
-            </div>
-            )
+        </div>
+    )
 }
