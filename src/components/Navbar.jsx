@@ -19,6 +19,11 @@ export default function Navbar() {
         <div className=' text-white top-0 py-2  italic mb-10 mt-10'>Keja<span className='text-[#F1F252]'>.</span></div>
 
         <li>Pricing</li>
+        {/* <div className='relative'>
+          <h1>To Let</h1>
+          <div className='text-sm absolute top-1 right-16 text-black px-1 bg-[#F1F252] rounded-md'>NEW</div>
+          </div> */}
+
         <li>Sign Up</li>
         <li>Login</li>
       </ul>
