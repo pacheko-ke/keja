@@ -23,7 +23,7 @@ export default function Features() {
                 <div>
                     <h1 className='text-md font-bold mt-4'>Interact seamlessly with your tenants and agents</h1>
                     <p>Bridge the gap between you and your tenants through a live chat.</p>
-                    <img src={Chat} alt="payment" />
+                    {/* <img src={Chat} alt="payment" /> */}
                 </div>
 
                 {/* <div>
