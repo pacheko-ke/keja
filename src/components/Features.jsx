@@ -26,6 +26,17 @@ export default function Features() {
                     {/* <img src={Chat} alt="payment" /> */}
                 </div>
 
+                <div>
+                    <h1 className='text-md font-bold mt-4'>Automate admin</h1>
+                    <p>Super powerful customizable admin dashboard to help you gain insights of your revenue.</p>
+                    {/* <img src={Chat} alt="payment" /> */}
+                </div>
+                <div>
+                    <h1 className='text-md font-bold mt-4'>Instant notifications and reminders</h1>
+                    <p>Automatically send notifications and reminders to tenants and agents via SMS and Email.</p>
+                    {/* <img src={Chat} alt="payment" /> */}
+                </div>
+
                 {/* <div>
                 <h1 className='text-md font-bold'>Enforce offers and deals to tenants</h1>
                 <p>Enforce offers and deals for your tenants to increase their stay .</p>
