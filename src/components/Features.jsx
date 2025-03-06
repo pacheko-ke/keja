@@ -14,9 +14,9 @@ export default function Features() {
                 <h1 className='text-md font-bold '>Support Multiple Payment Gateways</h1>
                 <p>The mobile app allows your tenants to send payments easily and conviniently through our several supported payment providers.</p>
                 <div className="overflow-x-scroll flex gap-2">
-                    <img src={Paypal} alt="mpesa" className='flex-none size-40' />
-                    <img src={Mpesa} alt="mpesa" className='flex-none size-40' />
-                    <img src={Visa} alt="visa" className='flex-none size-40' />
+                    <img src={Paypal} alt="mpesa" className='flex-none size-32' />
+                    <img src={Mpesa} alt="mpesa" className='flex-none size-32' />
+                    <img src={Visa} alt="visa" className='flex-none size-32' />
                 </div>
 
 
@@ -34,6 +34,11 @@ export default function Features() {
                 <div>
                     <h1 className='text-md font-bold mt-4'>Instant notifications and reminders</h1>
                     <p>Automatically send notifications and reminders to tenants and agents via SMS and Email.</p>
+                    {/* <img src={Chat} alt="payment" /> */}
+                </div>
+                <div>
+                    <h1 className='text-md font-bold mt-4'>Flexible and convinient</h1>
+                    <p>Manage multiple properties; anytime anywhere though our web app, USSD or Mobile App.</p>
                     {/* <img src={Chat} alt="payment" /> */}
                 </div>
 
