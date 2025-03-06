@@ -6,7 +6,7 @@ export default function Home() {
             <h1 className=' text-3xl font-bold'>Unify all your payments and revenue collection</h1>
             <p>Quis anim quis nisi ipsum velit amet eu ut enim est. Culpa ex labore esse ad dolor proident cupidatat officia fugiat eu sunt exercitation mollit non. Irure cupidatat ut amet laborum commodo enim irure reprehenderit commodo eu. Irure excepteur elit duis anim consequat qui.</p>
             <button className='bg-[#F1F252] rounded-full text-[#1c1b18] py-1'>Sign Up</button>
-            <button className='bg-[#F1F252] rounded-full text-[#1c1b18] py-1'>Sign Up</button>
+            <button className='border border-white rounded-full text-white py-1'>Contact Sales</button>
         </div>
     )
 }
