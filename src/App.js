@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Features from './components/Features';
 import Footer from './components/Footer';
 import RequestCall from './components/RequestCall';
+import Cookies from './components/Cookies';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Features/>
       <RequestCall/>
       <Footer/>
+      {/* <Cookies/> */}
       
     </div>
   );
