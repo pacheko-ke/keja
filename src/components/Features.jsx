@@ -4,6 +4,7 @@ import Chat from '../images/chat.svg'
 import Paypal from '../images/paypal.svg'
 import Mpesa from '../images/mpesa.svg'
 import Visa from '../images/visa.svg'
+import Stripe from '../images/stripe.svg'
 
 export default function Features() {
     return (
@@ -11,18 +12,20 @@ export default function Features() {
             <h1 className='text-2xl font-bold mb-2'>Manage Your Properties. But With Zero Hassle</h1>
 
             <div className='flex flex-col '>
-                <h1 className='text-md font-bold '>Support Multiple Payment Gateways</h1>
-                <p>The mobile app allows your tenants to send payments easily and conviniently through our several supported payment providers.</p>
+                <h1 className='text-md font-bold '>Multiple Payment Methods</h1>
+                <p>The mobile app allows your tenants to send payments easily and conviniently through a number of supported payment providers.</p>
                 <div className="overflow-x-scroll flex gap-2">
-                    <img src={Paypal} alt="mpesa" className='flex-none size-32' />
-                    <img src={Mpesa} alt="mpesa" className='flex-none size-32' />
-                    <img src={Visa} alt="visa" className='flex-none size-32' />
+                    
+                    <img src={Mpesa} alt="mpesa" className='flex-none size-28' />
+                    <img src={Visa} alt="visa" className='flex-none size-28' />
+                    <img src={Stripe} alt="stripe" className='flex-none size-28' />
+                    <img src={Paypal} alt="paypal" className='flex-none size-28' />
                 </div>
 
 
                 <div>
                     <h1 className='text-md font-bold mt-4'>Interact seamlessly with your tenants and agents</h1>
-                    <p>Bridge the gap between you and your tenants through a live chat.</p>
+                    <p>Bridge the gap between you and your tenants through a live chat and an inbuilt customer service utility.</p>
                     {/* <img src={Chat} alt="payment" /> */}
                 </div>
 
@@ -33,12 +36,12 @@ export default function Features() {
                 </div>
                 <div>
                     <h1 className='text-md font-bold mt-4'>Instant notifications and reminders</h1>
-                    <p>Automatically send notifications and reminders to tenants and agents via SMS and Email.</p>
+                    <p>Automatically send payment and maintenance notifications and reminders to tenants and agents via SMS and Email.</p>
                     {/* <img src={Chat} alt="payment" /> */}
                 </div>
                 <div>
                     <h1 className='text-md font-bold mt-4'>Flexible and convinient</h1>
-                    <p>Manage multiple properties; anytime anywhere though our web app, USSD or Mobile App.</p>
+                    <p>Manage multiple properties; anytime anywhere through our web app, USSD or Mobile App.</p>
                     {/* <img src={Chat} alt="payment" /> */}
                 </div>
 
