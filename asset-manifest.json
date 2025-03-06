@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/keja/static/css/main.723f2715.css",
-    "main.js": "/keja/static/js/main.3acb0349.js",
+    "main.js": "/keja/static/js/main.bc298e1a.js",
     "static/js/453.de98cd54.chunk.js": "/keja/static/js/453.de98cd54.chunk.js",
     "static/media/pay.svg": "/keja/static/media/pay.b0836c5b095e4230a7f91523cac56a87.svg",
     "static/media/chat.svg": "/keja/static/media/chat.b9bfde87d0708d2605d4c43b7ed7be12.svg",
@@ -10,11 +10,11 @@
     "static/media/visa.svg": "/keja/static/media/visa.36960afe058bc65b37a19cc779d048e1.svg",
     "index.html": "/keja/index.html",
     "main.723f2715.css.map": "/keja/static/css/main.723f2715.css.map",
-    "main.3acb0349.js.map": "/keja/static/js/main.3acb0349.js.map",
+    "main.bc298e1a.js.map": "/keja/static/js/main.bc298e1a.js.map",
     "453.de98cd54.chunk.js.map": "/keja/static/js/453.de98cd54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.723f2715.css",
-    "static/js/main.3acb0349.js"
+    "static/js/main.bc298e1a.js"
   ]
 }
