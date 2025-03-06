@@ -14,7 +14,7 @@ export default function Navbar() {
 
     <>
       {/* mobile nav */}
-      <ul className={navOpen ? 'text-white lg:hidden h-full bg-red-500 w-3/4 text-5xl gap-2 flex flex-col fixed top-0':'text-white hidden h-full bg-red-500 w-3/4 text-5xl gap-2  flex-col fixed top-0'}>
+      <ul className={navOpen ? 'text-white lg:hidden h-full bg-[#1c1b18] w-3/4 text-5xl gap-2 flex flex-col fixed top-0':'text-white hidden h-full bg-red-500 w-3/4 text-5xl gap-2  flex-col fixed top-0'}>
       <h1 className='absolute w-full text-right pr-4 text-4xl' onClick={openNav}>x</h1>
         <div className=' text-white top-0 py-2  italic mb-10'>Keja<span className='text-[#F1F252]'>.</span></div>
 
