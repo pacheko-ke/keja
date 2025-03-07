@@ -23,9 +23,13 @@ export default function Landlord() {
                     })
 
                     }
-                    <hr />
 
+                    <hr />
                     <h1>Demo</h1>
+                    <label class="relative inline-flex items-center cursor-pointer">
+                        <input type="checkbox" value="" class="sr-only peer" />
+                        <div class="w-9 h-5 bg-gray-200 hover:bg-gray-300 peer-focus:outline-0 peer-focus:ring-transparent rounded-full peer transition-all ease-in-out duration-500 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-indigo-600 hover:peer-checked:bg-indigo-700"></div>
+                    </label>
                     <h1>Feedback</h1>
                     <h1>Help and Docs</h1>
 
@@ -35,6 +39,7 @@ export default function Landlord() {
                     </div>
 
                 </div>
+
                 {/* main content */}
                 <div className="flex flex-col main-content size-full mr-4 gap-4">
                     <div className="flex flex-row justify-between ">
@@ -63,22 +68,22 @@ export default function Landlord() {
                         <div className='flex flex-col gap-2 text-left border rounded-lg p-2 basis-full  md:basis-1/3 shadow-lg '>
                             <h1 className='text-sm'>Total Expenditure</h1>
                             <h1 className='font-bold'>$230,000.00</h1>
-                            <div className="flex">
-                                <h1 className='text-xs py-1'>12.52</h1>
-                                <h1 className='text-sm'>Compared to last month</h1>
+                            <div className="flex gap-x-2">
+                                <h1 className='text-xs bg-green-300 p-1 rounded-sm'>12.52</h1>
+                                <h1 className='text-xs py-1'>Compared to last month</h1>
                             </div>
                         </div>
                         <div className='flex flex-col gap-2 text-left border rounded-lg p-2 basis-full md:basis-1/3 shadow-lg'>
                             <h1 className='text-sm'>Total Properties</h1>
                             <h1 className='font-bold'>15</h1>
-                            <div className="flex">
-                                <h1 className='text-xs py-1'>12.52</h1>
-                                <h1 className='text-sm'>Compared to last month</h1>
+                            <div className="flex gap-x-2">
+                                <h1 className='text-xs bg-red-500 p-1 rounded-sm'>12.52</h1>
+                                <h1 className='text-xs py-1'>Compared to last month</h1>
                             </div>
                         </div>
                         <div className='flex flex-col gap-2 text-left border rounded-lg p-2 basis-full md:basis-1/3 shadow-lg'>
                             <h1 className='text-sm'>Tenants</h1>
-                            <h1 className='font-bold'>600</h1>
+                            <h1 className='font-bold text-xl    '>600</h1>
                             <div className="flex">
                                 <h1 className='text-xs py-1'>12.52</h1>
                                 <h1 className='text-sm'>Compared to last month</h1>
@@ -95,24 +100,24 @@ export default function Landlord() {
 
                     </div>
                     {/* Data visualization section */}
-                    <div className="flex gap-6">
-                        <div className="flex basis-3/4 bg-gray-100 shadow-lg h-[20vw]">
+                    <div className="flex gap-6 flex-col md:flex-row">
+                        <div className="flex w-full md:basis-3/4 bg-gray-100 shadow-lg h-[20vw]">
 
                         </div>
-                        <div className="flex basis-1/4  bg-gray-100 shadow-lg h-[20vw]">
+                        <div className="flex w-full  md:basis-1/4  bg-gray-100 shadow-lg h-[20vw]">
 
                         </div>
 
                     </div>
 
-                    <div className="flex gap-6">
-                        <div className="flex basis-1/3 bg-gray-100 shadow-lg h-[20vw]">
+                    <div className="flex gap-6 flex-col md:flex-row">
+                        <div className="flex w-full md:basis-1/3 bg-gray-100 shadow-lg h-[20vw]">
 
                         </div>
-                        <div className="flex basis-1/3 bg-gray-100 shadow-lg h-[20vw]">
+                        <div className="flex w-full md:basis-1/3 bg-gray-100 shadow-lg h-[20vw]">
 
                         </div>
-                        <div className="flex basis-1/3 bg-gray-100 shadow-lg h-[20vw]">
+                        <div className="flex w-full md:basis-1/3 bg-gray-100 shadow-lg h-[20vw]">
 
                         </div>
 
