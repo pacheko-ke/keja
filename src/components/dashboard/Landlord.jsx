@@ -36,7 +36,7 @@ export default function Landlord() {
 
                 </div>
                 {/* main content */}
-                <div className="flex flex-col main-content size-full mr-4">
+                <div className="flex flex-col main-content size-full mr-4 gap-4">
                     <div className="flex flex-row justify-between ">
                         <input type="text" placeholder='Search anything here' className='text-sm' />
 
@@ -94,18 +94,30 @@ export default function Landlord() {
                         </div>
 
                     </div>
+                    {/* Data visualization section */}
+                    <div className="flex gap-6">
+                        <div className="flex basis-3/4 bg-gray-100 shadow-lg h-[20vw]">
 
-<div className="flex gap-6">
-    <div className="flex basis-3/4">    
-    
-    </div>
-    <div className="flex basis-1/4">    
-    
-    </div>
+                        </div>
+                        <div className="flex basis-1/4  bg-gray-100 shadow-lg h-[20vw]">
 
-</div>
+                        </div>
+
+                    </div>
+
+                    <div className="flex gap-6">
+                        <div className="flex basis-1/3 bg-gray-100 shadow-lg h-[20vw]">
+
+                        </div>
+                        <div className="flex basis-1/3 bg-gray-100 shadow-lg h-[20vw]">
+
+                        </div>
+                        <div className="flex basis-1/3 bg-gray-100 shadow-lg h-[20vw]">
+
+                        </div>
 
 
+                    </div>
 
 
 
