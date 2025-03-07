@@ -1,15 +1,11 @@
 import * as React from 'react';
 import { data } from './dashboardItems'
+import Visualize from './Visualize';
 // import * as React from 'react';
-import { BarChart } from '@mui/x-charts/BarChart';
-import { PieChart } from '@mui/x-charts/PieChart';
+
+
 
 export default function Landlord() {
-
-
-
-
-
     return (
         <div>
             <div className="flex gap-4 h-full mx-6 mt-4 flex-row ">
@@ -109,59 +105,8 @@ export default function Landlord() {
                         </div>
 
                     </div>
-                    {/* Data visualization section */}
-                    <div className="flex gap-6 flex-col md:flex-row">
-                        <div className="flex w-full md:basis-3/4 bg-gray-100 shadow-lg h-[20vw]">
-                            <BarChart
-                                series={[
-                                    { data: [35, 44, 24, 34] },
-                                    { data: [51, 6, 49, 30] },
-                                    { data: [15, 25, 30, 50] },
-                                    { data: [60, 50, 15, 25] },
-                                ]}
-                                height={290}
-                                xAxis={[{ data: ['Q1', 'Q2', 'Q3', 'Q4'], scaleType: 'band' }]}
-                                margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
-                            />
-                        </div>
-                        <div className="flex w-full  md:basis-1/4  bg-gray-100 shadow-lg h-[20vw]">
-                           {
-  
-                            <PieChart
-                                series={[
-                                    {
-                                        data: [
-                                            { id: 0, value: 10, label: 'series A' },
-                                            { id: 1, value: 15, label: 'series B' },
-                                            { id: 2, value: 20, label: 'series C' },
-                                        ],
-                                    },
-                                ]}
-                                width={400}
-                                height={200}
-                            />
+                    <Visualize/>
 
-                            
-                           
-}
-
-                        </div>
-
-                    </div>
-
-                    <div className="flex gap-6 flex-col md:flex-row">
-                        <div className="flex w-full md:basis-1/3 bg-gray-100 shadow-lg h-[20vw]">
-
-                        </div>
-                        <div className="flex w-full md:basis-1/3 bg-gray-100 shadow-lg h-[20vw]">
-
-                        </div>
-                        <div className="flex w-full md:basis-1/3 bg-gray-100 shadow-lg h-[20vw]">
-
-                        </div>
-
-
-                    </div>
 
 
 
