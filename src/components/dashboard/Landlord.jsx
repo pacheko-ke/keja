@@ -1,13 +1,20 @@
-import React from 'react'
+import * as React from 'react';
 import { data } from './dashboardItems'
+// import * as React from 'react';
+import { BarChart } from '@mui/x-charts/BarChart';
+import { PieChart } from '@mui/x-charts/PieChart';
 
 export default function Landlord() {
+
+
+
+
 
     return (
         <div>
             <div className="flex gap-4 h-full mx-6 mt-4 flex-row ">
                 {/* sidenav */}
-                <div className="flex flex-col sidebar gap-6 text-left">
+                <div className=" sidebar gap-6 text-left hidden md:flex flex flex-col">
 
                     <div className='flex gap-4'>
                         <h1>Keja</h1>
@@ -25,11 +32,14 @@ export default function Landlord() {
                     }
 
                     <hr />
-                    <h1>Demo</h1>
-                    <label class="relative inline-flex items-center cursor-pointer">
-                        <input type="checkbox" value="" class="sr-only peer" />
-                        <div class="w-9 h-5 bg-gray-200 hover:bg-gray-300 peer-focus:outline-0 peer-focus:ring-transparent rounded-full peer transition-all ease-in-out duration-500 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-indigo-600 hover:peer-checked:bg-indigo-700"></div>
-                    </label>
+                    <div className='flex  gap-2'>
+                        <h1>Demo</h1>
+                        <label class="relative inline-flex items-center cursor-pointer">
+                            <input type="checkbox" value="" class="sr-only peer" />
+                            <div class="w-9 h-5 bg-gray-200 hover:bg-gray-300 peer-focus:outline-0 peer-focus:ring-transparent rounded-full peer transition-all ease-in-out duration-500 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[4px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-indigo-600 hover:peer-checked:bg-indigo-700"></div>
+                        </label>
+                    </div>
+
                     <h1>Feedback</h1>
                     <h1>Help and Docs</h1>
 
@@ -102,9 +112,38 @@ export default function Landlord() {
                     {/* Data visualization section */}
                     <div className="flex gap-6 flex-col md:flex-row">
                         <div className="flex w-full md:basis-3/4 bg-gray-100 shadow-lg h-[20vw]">
-
+                            <BarChart
+                                series={[
+                                    { data: [35, 44, 24, 34] },
+                                    { data: [51, 6, 49, 30] },
+                                    { data: [15, 25, 30, 50] },
+                                    { data: [60, 50, 15, 25] },
+                                ]}
+                                height={290}
+                                xAxis={[{ data: ['Q1', 'Q2', 'Q3', 'Q4'], scaleType: 'band' }]}
+                                margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
+                            />
                         </div>
                         <div className="flex w-full  md:basis-1/4  bg-gray-100 shadow-lg h-[20vw]">
+                           {
+  
+                            <PieChart
+                                series={[
+                                    {
+                                        data: [
+                                            { id: 0, value: 10, label: 'series A' },
+                                            { id: 1, value: 15, label: 'series B' },
+                                            { id: 2, value: 20, label: 'series C' },
+                                        ],
+                                    },
+                                ]}
+                                width={400}
+                                height={200}
+                            />
+
+                            
+                           
+}
 
                         </div>
 
