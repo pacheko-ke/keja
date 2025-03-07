@@ -1,0 +1,1 @@
+export const data = [ 'Overview', 'Performance','Campaigns','Orders','Products','Message','Sales Platform']
