@@ -56,7 +56,7 @@ export default function Visualize() {
 
 
                     <LineChart
-                        xAxis={[{ data: [1, 2, 3, 5, 8, 10] }]}
+                        xAxis={[{ data: [1, 2, 3, 4, 5, 6] }]}
                         series={[
                             {
                                 data: [2, 5.5, 2, 8.5, 1.5, 5],
@@ -68,29 +68,9 @@ export default function Visualize() {
 
 
                 </div>
-                <div className="flex w-full bg-gray-100 shadow-lg md:w-1/3 p-2 ">
-                    {/* <h1>Revenue by payment methods</h1> */}
-                    <PieChart
-                        series={[
-                            {
-                                data: [
-                                    { id: 0, value: 10, label: 'Mpesa' },
-                                    { id: 1, value: 15, label: 'Paypal' },
-                                    { id: 2, value: 20, label: 'Visa Card' },],
-                                innerRadius: 30,
-                                outerRadius: 100,
-                                paddingAngle: 5,
-                                cornerRadius: 5,
-                                startAngle: -45,
-                                endAngle: 225,
-                                cx: 100,
-                                cy: 120,
-                            }
-                        ]} className='text-center'
-                    />
-                </div>
-                <div className="flex w-full md:basis-1/3 bg-gray-100 shadow-lg p-10 ">
-
+                
+                <div className="flex w-full md:basis-1/3 bg-gray-100 shadow-lg p-10 flex-col py-2">
+                <h1 className='text-xl'>Dues cleared</h1>
 
                     <Gauge
                         value={75}
@@ -106,6 +86,9 @@ export default function Visualize() {
                             ({ value, valueMax }) => `${value} / ${valueMax}`
                         }
                     />
+                </div>
+                <div className="flex w-full bg-gray-100 shadow-lg md:w-1/3 p-2 ">
+              
                 </div>
 
 

@@ -1,13 +1,9 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider, Route, Routes, HashRouter } from 'react-router-dom'
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Features from './components/Features';
-import Footer from './components/Footer';
-import RequestCall from './components/RequestCall';
-import Cookies from './components/Cookies';
+import {  Route, Routes, HashRouter } from 'react-router-dom'
+
 import Landlord from './components/dashboard/Landlord';
 import Landing from './components/Landing';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -19,6 +15,7 @@ function App() {
        
           <Route path="/" element={<Landing />} />
           <Route path="/dashboard" element={<Landlord />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </HashRouter>
 
