@@ -9,9 +9,9 @@ export default function Login() {
 
     return (
         <div className='flex md:flex-row md:mx-20 h-full'>
-             <img src="" alt="login screen image" className='hidden md:flex basis-1/2'/>
+            <img src="" alt="login screen image" className='hidden md:flex basis-1/2' />
             <div className="flex flex-col  text-left  mt-4 md:mt-10 gap-4 mx-auto px-70 md:px-72 px-4">
-               
+
                 <div className="flex justify-between text-2xl">
                     <h1 className=' italic'>Keja.</h1>
                     <h1 className='text-xl underline'>Login</h1>
@@ -20,11 +20,15 @@ export default function Login() {
                 <h1 className='text-2xl font-medium'>Sign Up Today and Enjoy 1 Month Free Trial </h1>
 
 
-                <div className="flex flex-col">
-                    <label htmlFor="businessName">Tenant/Property Owner</label>
-                    <input type="text" id='businessName' className='border rounded-lg py-2 focus:border-2 pl-2' />
+                <select className='border rounded-lg py-2 focus:border-2 pl-2'>
+                    <option value="0">Registering As:</option>
+                    <option value="1">Tenant</option>
+                    <option value="2">Property Owner</option>
+                
+                </select>
                     <h1 className='text-sm text-red-500'>This field is required</h1>
-                </div>
+               
+              
                 <div className="flex flex-col">
                     <label htmlFor="businessName">Business Type</label>
                     <input type="text" id='businessName' className='border rounded-lg py-2 focus:border-2 pl-2' />
