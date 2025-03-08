@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/keja/static/css/main.64a305f2.css",
-    "main.js": "/keja/static/js/main.7be5e65a.js",
+    "main.js": "/keja/static/js/main.d897d840.js",
     "static/js/453.de98cd54.chunk.js": "/keja/static/js/453.de98cd54.chunk.js",
     "index.html": "/keja/index.html",
     "main.64a305f2.css.map": "/keja/static/css/main.64a305f2.css.map",
-    "main.7be5e65a.js.map": "/keja/static/js/main.7be5e65a.js.map",
+    "main.d897d840.js.map": "/keja/static/js/main.d897d840.js.map",
     "453.de98cd54.chunk.js.map": "/keja/static/js/453.de98cd54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64a305f2.css",
-    "static/js/main.7be5e65a.js"
+    "static/js/main.d897d840.js"
   ]
 }
