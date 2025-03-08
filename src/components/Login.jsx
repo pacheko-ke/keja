@@ -10,7 +10,7 @@ export default function Login() {
     return (
         <div className='flex md:flex-row md:mx-20 h-full'>
              <img src="" alt="login screen image" className='hidden md:flex basis-1/2'/>
-            <div className="flex flex-col  text-left  mt-4 md:mt-6 gap-4 mx-auto px-70 md:px-72 px-4">
+            <div className="flex flex-col  text-left  mt-4 md:mt-10 gap-4 mx-auto px-70 md:px-72 px-4">
                
                 <div className="flex justify-between text-2xl">
                     <h1 className=' italic'>Keja.</h1>
