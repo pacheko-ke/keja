@@ -6,7 +6,7 @@ export default function Login() {
             <div className="flex flex-col text-left mx-4 mt-4 gap-4">
                 <div className="flex justify-between text-2xl">
                     <h1 className=' italic'>Keja.</h1>
-                    <h1 className=' underline'>Login</h1>
+                    <h1 className='text-xl underline'>Login</h1>
                 </div>
 
                 <h1 className='text-2xl font-medium'>Sign Up Today and Enjoy 1 Month Free Trial </h1>
@@ -15,6 +15,7 @@ export default function Login() {
                 <div className="flex flex-col">
                     <label htmlFor="businessName">Tenant/Property Owner</label>
                     <input type="text" id='businessName' className='border rounded-lg py-2 focus:border-2 pl-2' />
+                    <h1 className='text-sm text-red-500'>Name is required</h1>
                 </div>
                 <div className="flex flex-col">
                     <label htmlFor="businessName">Business Type</label>
