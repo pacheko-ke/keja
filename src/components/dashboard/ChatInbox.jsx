@@ -1,5 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
+import revOne from '../../images/r-1.jpg'
+import revTwo from '../../images/r-2.jpg'
+import revThree from '../../images/r-3.jpg'
 
 export default function ChatInbox() {
     const [chatHidden, showChats] = useState(true)
@@ -16,15 +19,24 @@ export default function ChatInbox() {
 
             {/* chat list */}
 
-            <div className={!chatHidden ? "flex flex-col gap-2 divide-y-2 divide-gray-300 bg-green-400 h-full px-2" : "hidden"}>
-                <h1 className="text-lg">Direct Messages</h1>
-                <div className='flex gap-2 rounded-full size-6 '>
-                    <img src="" alt="profile_pic" />
-                    <div>Clark</div>
+            <div className={!chatHidden ? "flex flex-col gap-4 divide-y-2 divide-gray-500 bg-gray-100 h-full px-2 w-full" : "hidden"}>
+                <h1 className="text-lg mt-10">Direct Messages</h1>
+                <div className='flex gap-2   w-full mt-2'>
+                    <img src={revOne} alt="profile_pic" className='rounded-full size-10' />
+                    <div>Anne</div>
                 </div>
-                <div className='flex gap-2 rounded-full size-6 '>
-                    <img src="" alt="profile_pic" />
+                
+                <div className='flex gap-2   w-full mt-2'>
+                    <img src={revOne} alt="profile_pic" className='rounded-full size-10' />
                     <div>John</div>
+                </div>
+                <div className='flex gap-2   w-full mt-2'>
+                    <img src={revThree} alt="profile_pic" className='rounded-full size-10' />
+                    <div>Janet</div>
+                </div>
+                <div className='flex gap-2  w-full mb-2'>
+                    <img src={revTwo} alt="profile_pic" className='rounded-full size-10' />
+                    <div>Terry</div>
                 </div>
 
 
