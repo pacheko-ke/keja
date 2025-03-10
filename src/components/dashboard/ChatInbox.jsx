@@ -15,9 +15,9 @@ export default function ChatInbox() {
         <div className=' text-left flex flex-row  h-lvh relative'>
 
             {/* chat list */}
-           
-            <div className={!chatHidden?"flex flex-col gap-2 divide-y-2 divide-gray-300 bg-green-400 h-full": "hidden"}>
-            <h1 className="text-lg">Direct Messages</h1>
+
+            <div className={!chatHidden ? "flex flex-col gap-2 divide-y-2 divide-gray-300 bg-green-400 h-full px-2" : "hidden"}>
+                <h1 className="text-lg">Direct Messages</h1>
                 <div className='flex gap-2 rounded-full size-6 '>
                     <img src="" alt="profile_pic" />
                     <div>Clark</div>
@@ -30,10 +30,10 @@ export default function ChatInbox() {
 
             </div>
 
-            <div className='flex flex-col'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8" onClick={showChatList}>
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-</svg>
+            <div className='flex flex-col px-2 w-full'>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8" onClick={showChatList}>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                </svg>
 
                 <div>Chat with Clark -Safari -RM 11</div>
                 <h1 className='text-sm text-gray-400 text-center mt-20 mb-6'>Wednesday 10/03/2025</h1>
