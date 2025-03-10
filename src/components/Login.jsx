@@ -17,11 +17,11 @@ export default function Login() {
                 <div className="flex justify-between text-2xl">
                     <h1 className=' italic'>Keja.</h1>
                     
-                    <Link to={'/'} className='text-xl underline cursor-pointer'>Login</Link>
+                    <Link to={'/'} className='text-xl underline cursor-pointer'>Landlord Sign Up</Link>
                     
                 </div>
 
-                <h1 className='text-2xl font-medium'>Sign Up Today and Enjoy 1 Month Free Trial </h1>
+                <h1 className='text-3xl font-medium'>Login In To Your Account </h1>
 
 
                 <select className='border rounded-lg py-2 focus:border-2 pl-2'>
@@ -30,17 +30,7 @@ export default function Login() {
                     <option value="2">Property Owner</option>
 
                 </select>
-                <h1 className='text-sm text-red-500'>This field is required</h1>
-
-
-                    {/* Show only if registering as Property owner */}
-                    <select className='border rounded-lg py-2 focus:border-2 pl-2'>
-                    <option value="0">Business Type</option>
-                    <option value="1">Medium</option>
-                    <option value="2">Small</option>
-                    <option value="2">Large</option>
-
-                </select>
+           
                    
                 <div className="flex flex-col">
                     <label htmlFor="businessName">Email</label>
