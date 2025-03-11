@@ -19,30 +19,34 @@ export default function ChatInbox() {
 
             {/* chat list */}
 
-            <div className={!chatHidden ? "flex flex-col gap-4 divide-y-2 divide-gray-500 bg-gray-100 h-full px-2 w-full" : "hidden"}>
+            <div className={!chatHidden ? "flex flex-col gap-4  divide-gray-500 bg-gray-100 h-full px-2 w-full" : "hidden"}>
                 <h1 className="text-lg mt-10">Direct Messages</h1>
-                <div className='flex gap-2   w-full mt-2'>
+                <div className='flex gap-2   w-full mt-2 cursor-pointer' onClick={showChatList}>
                     <img src={revOne} alt="profile_pic" className='rounded-full size-10' />
                     <div>Anne</div>
+                  
                 </div>
+                <hr />
                 
-                <div className='flex gap-2   w-full mt-2'>
+                <div className='flex gap-2   w-full mt-2 cursor-pointer' onClick={showChatList}>
                     <img src={revOne} alt="profile_pic" className='rounded-full size-10' />
                     <div>John</div>
                 </div>
-                <div className='flex gap-2   w-full mt-2'>
-                    <img src={revThree} alt="profile_pic" className='rounded-full size-10' />
+                <hr />
+                <div className='flex gap-2   w-full mt-2 cursor-pointer' onClick={showChatList}>
+                    <img src={revThree} alt="profile_pic" className='rounded-full size-10'  />
                     <div>Janet</div>
                 </div>
-                <div className='flex gap-2  w-full mb-2'>
-                    <img src={revTwo} alt="profile_pic" className='rounded-full size-10' />
+                <hr />
+                <div className='flex gap-2  w-full mb-2 cursor-pointer' onClick={showChatList}>
+                    <img src={revTwo} alt="profile_pic" className='rounded-full size-10'  />
                     <div>Terry</div>
                 </div>
 
 
             </div>
 
-            <div className='flex flex-col px-2 w-full'>
+            <div className={!chatHidden?'hidden':'flex flex-col px-2 w-full'}>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8" onClick={showChatList}>
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
                 </svg>

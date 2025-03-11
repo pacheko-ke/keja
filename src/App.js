@@ -5,6 +5,7 @@ import Landlord from './components/dashboard/Landlord';
 import Landing from './components/Landing';
 import Login from './components/Login';
 import ChatInbox from './components/dashboard/ChatInbox';
+import Pay from './components/Pay';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/dashboard" element={<Landlord />} />
           <Route path="/login" element={<Login />} />
           <Route path="/chat" element={<ChatInbox />} />
+          <Route path="/pay" element={<Pay />}/>
           
         </Routes>
       </HashRouter>
