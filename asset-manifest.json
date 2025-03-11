@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/keja/static/css/main.254f4982.css",
-    "main.js": "/keja/static/js/main.169ea439.js",
+    "main.js": "/keja/static/js/main.efd037d3.js",
     "static/js/453.de98cd54.chunk.js": "/keja/static/js/453.de98cd54.chunk.js",
+    "static/media/applepay.svg": "/keja/static/media/applepay.a4773eb9f47d6276d68fb0e7a5d412b0.svg",
+    "static/media/gpay.svg": "/keja/static/media/gpay.e9a9751cede23097df5da534f5ff1d65.svg",
     "index.html": "/keja/index.html",
     "main.254f4982.css.map": "/keja/static/css/main.254f4982.css.map",
-    "main.169ea439.js.map": "/keja/static/js/main.169ea439.js.map",
+    "main.efd037d3.js.map": "/keja/static/js/main.efd037d3.js.map",
     "453.de98cd54.chunk.js.map": "/keja/static/js/453.de98cd54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.254f4982.css",
-    "static/js/main.169ea439.js"
+    "static/js/main.efd037d3.js"
   ]
 }
