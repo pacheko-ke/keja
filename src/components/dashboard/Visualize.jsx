@@ -69,7 +69,7 @@ export default function Visualize() {
 
                 </div>
                 
-                <div className="flex w-full md:basis-1/3 bg-gray-100 shadow-lg p-10 flex-col py-2">
+                <div className="flex w-full md:basis-1/3 bg-gray-100 shadow-lg  flex-col py-2">
                 <h1 className='text-xl'>Dues cleared</h1>
 
                     <Gauge
@@ -87,9 +87,7 @@ export default function Visualize() {
                         }
                     />
                 </div>
-                <div className="flex w-full bg-gray-100 shadow-lg md:w-1/3 p-2 ">
-              
-                </div>
+                
 
 
             </div>
