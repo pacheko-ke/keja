@@ -4,21 +4,29 @@ import { Link } from 'react-router-dom'
 
 
 export default function Login() {
+
+
+    const user = [{
+        "email": "John Doe",
+        "password": "John@213_"
+
+    }]
+
     const [passwordHidden, showPassword] = useState(true)
     const showFullPass = () => {
         showPassword(!passwordHidden)
     }
 
     return (
-        <div className='flex md:flex-row md:mx-20 h-full'>
+        <div className='flex md:flex-row md:mx-20 h-full mx-6'>
             <img src="" alt="login screen image" className='hidden md:flex basis-1/2' />
             <div className="flex flex-col  text-left  mt-20  gap-4 mx-auto px-70 md:px-72 px-4">
 
                 <div className="flex justify-between text-3xl">
                     <h1 className=' italic '>Keja.</h1>
-                    
+
                     <Link to={'/'} className='text-xl underline cursor-pointer'>Landlord Sign Up</Link>
-                    
+
                 </div>
 
                 <h1 className='text-3xl font-medium'>Login In To Your Account </h1>
@@ -30,15 +38,15 @@ export default function Login() {
                     <option value="2">Property Owner</option>
 
                 </select>
-           
-                   
+
+
                 <div className="flex flex-col">
                     <label htmlFor="businessName">Email</label>
                     <input type="text" id='businessName' className='border rounded-lg py-2 focus:border-2 pl-2' />
                 </div>
                 <div className="flex flex-col relative">
                     <label htmlFor="businessName">Password</label>
-                    <input type={passwordHidden?"password":"text"} id='businessName' className='border rounded-lg py-2 focus:border-2 pl-2' />
+                    <input type={passwordHidden ? "password" : "text"} id='businessName' className='border rounded-lg py-2 focus:border-2 pl-2' />
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={passwordHidden ? "size-6 absolute right-2 top-8 cursor-pointer" : "size-6 absolute right-2 top-8 hidden"} onClick={showFullPass}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
@@ -48,7 +56,7 @@ export default function Login() {
                     </svg>
 
                 </div>
-              
+
                 <div className="flex gap-2">
                     <input type="checkbox" name="" id="" className='items-start size-6 accent-[#F1F252]' />
                     <p className='text-sm'>I agree to the terms of service and incorporated terms, no fees terms, sanctions agreement and understand Keja’s privacy notice.</p>
