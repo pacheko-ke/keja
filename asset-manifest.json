@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/keja/static/css/main.7142f565.css",
-    "main.js": "/keja/static/js/main.cde473e3.js",
+    "main.js": "/keja/static/js/main.d48b1243.js",
     "static/js/453.de98cd54.chunk.js": "/keja/static/js/453.de98cd54.chunk.js",
+    "static/media/pay.svg": "/keja/static/media/pay.b0836c5b095e4230a7f91523cac56a87.svg",
+    "static/media/chat.svg": "/keja/static/media/chat.b9bfde87d0708d2605d4c43b7ed7be12.svg",
+    "static/media/paypal.svg": "/keja/static/media/paypal.e01b962f571e1e88810f12564b369f19.svg",
+    "static/media/stripe.svg": "/keja/static/media/stripe.149952a911500ef4e021c7877b63a126.svg",
+    "static/media/mpesa.svg": "/keja/static/media/mpesa.41f0feedf7cb6f606320debb46fd9c8e.svg",
+    "static/media/visa.svg": "/keja/static/media/visa.36960afe058bc65b37a19cc779d048e1.svg",
     "index.html": "/keja/index.html",
     "main.7142f565.css.map": "/keja/static/css/main.7142f565.css.map",
-    "main.cde473e3.js.map": "/keja/static/js/main.cde473e3.js.map",
+    "main.d48b1243.js.map": "/keja/static/js/main.d48b1243.js.map",
     "453.de98cd54.chunk.js.map": "/keja/static/js/453.de98cd54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7142f565.css",
-    "static/js/main.cde473e3.js"
+    "static/js/main.d48b1243.js"
   ]
 }
